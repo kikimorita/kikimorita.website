@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import "./design-tokens.css";
+
+@font-face {
+  font-family: "Arges";
+  src: url("/fonts/Arges-Variable-wght-wdth-slnt.woff2") format("woff2"),
+       url("/fonts/Arges-Variable-wght-wdth-slnt.ttf") format("truetype");
+  font-weight: 100 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arges-Heavy";
+  src: url("/fonts/Arges-Variable-wght-wdth-slnt.woff2") format("woff2"),
+       url("/fonts/Arges-Variable-wght-wdth-slnt.ttf") format("truetype");
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE TOMMY";
+  src: url("/fonts/MADETOMMY-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADETOMMY-Light";
+  src: url("/fonts/MADETOMMY-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE TOMMY";
+  src: url("/fonts/MADETOMMY-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADETOMMY-Bold";
+  src: url("/fonts/MADETOMMY-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-blue-200);
+  color: var(--color-blue-500);
+  font-family: var(--font-body-light);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

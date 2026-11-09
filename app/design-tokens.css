@@ -1,0 +1,83 @@
+:root {
+  /* Colors - Blue Scale */
+  --color-blue-900: #1F2141;
+  --color-blue-800: #23266C;
+  --color-blue-700: #3C3F62;
+  --color-blue-600: #3F448C;
+  --color-blue-500: #5458AF;
+  --color-blue-400: #848CFF;
+  --color-blue-300: #A5A8FF;
+  --color-blue-200: #CFD1FF;
+  --color-blue-100: #D9DBFF;
+
+  /* Colors - Coral Scale */
+  --color-coral-900: #C18072;
+  --color-coral-800: #DF7566;
+  --color-coral-700: #E78B77;
+  --color-coral-600: #FF8D74;
+  --color-coral-500: #FAA181;
+  --color-coral-400: #F4B097;
+  --color-coral-300: #FFBBA2;
+  --color-coral-200: #FFDBCE;
+  --color-coral-100: #FFE9E0;
+
+  /* Spacing Scale */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 32px;
+  --spacing-lg: 70px;
+
+  /* Typography Scale */
+  --font-size-display: 150px;
+  --font-size-xl: 48px;
+  --font-size-lg: 24px;
+  --font-size-base: 17px;
+  --font-size-sm: 14px;
+
+  /* Fonts */
+  --font-display: "Arges-Heavy", "Arges", system-ui, -apple-system, sans-serif;
+  --font-body-light: "MADETOMMY-Light", "MADE TOMMY", system-ui, -apple-system, sans-serif;
+  --font-body-bold: "MADETOMMY-Bold", "MADE TOMMY", system-ui, -apple-system, sans-serif;
+  --font-body-regular: "MADE TOMMY", system-ui, -apple-system, sans-serif;
+
+  /* Text Alignment */
+  --text-align: left;
+
+  /* Button Styles */
+  --button-border-width: 1px;
+  --button-border-radius: 2px;
+  --button-border-color: var(--color-blue-300);
+  --button-font-family: var(--font-body-regular);
+  --button-font-color: var(--color-blue-300);
+  --button-font-color-hover: var(--color-blue-900);
+  --button-bg-color: transparent;
+  --button-bg-color-hover: var(--color-blue-300);
+  --button-text-transform: none;
+}
+
+@theme {
+  --color-blue-900: #1F2141;
+  --color-blue-800: #23266C;
+  --color-blue-700: #3C3F62;
+  --color-blue-600: #3F448C;
+  --color-blue-500: #5458AF;
+  --color-blue-400: #848CFF;
+  --color-blue-300: #A5A8FF;
+  --color-blue-200: #CFD1FF;
+  --color-blue-100: #D9DBFF;
+
+  --color-coral-900: #C18072;
+  --color-coral-800: #DF7566;
+  --color-coral-700: #E78B77;
+  --color-coral-600: #FF8D74;
+  --color-coral-500: #FAA181;
+  --color-coral-400: #F4B097;
+  --color-coral-300: #FFBBA2;
+  --color-coral-200: #FFDBCE;
+  --color-coral-100: #FFE9E0;
+
+  --font-display: "Arges-Heavy", "Arges", system-ui, -apple-system, sans-serif;
+  --font-body: "MADETOMMY-Light", "MADE TOMMY", system-ui, -apple-system, sans-serif;
+  --font-body-bold: "MADETOMMY-Bold", "MADE TOMMY", system-ui, -apple-system, sans-serif;
+  --font-body-regular: "MADE TOMMY", system-ui, -apple-system, sans-serif;
+}
